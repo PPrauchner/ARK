@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="ARK, Agent Rules Kit">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1f3f"/>
+      <stop offset="0.55" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+
+  <text x="80" y="170" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="120" font-weight="800" letter-spacing="10" fill="#ffffff">ARK</text>
+  <text x="84" y="222" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="400" letter-spacing="6" fill="#bfdbfe">AGENT RULES KIT</text>
+
+  <!-- pipeline: issue, código, PR, revisão, integração, humano -->
+  <g transform="translate(640 150)">
+    <line x1="0" y1="0" x2="460" y2="0" stroke="#bfdbfe" stroke-opacity="0.7" stroke-width="3"/>
+    <circle cx="0" cy="0" r="14" fill="#0b1f3f" stroke="#bfdbfe" stroke-width="3"/>
+    <circle cx="92" cy="0" r="14" fill="#0b1f3f" stroke="#bfdbfe" stroke-width="3"/>
+    <circle cx="184" cy="0" r="14" fill="#0b1f3f" stroke="#bfdbfe" stroke-width="3"/>
+    <rect x="262" y="-16" width="32" height="32" rx="4" transform="rotate(45 278 0)" fill="#1d4ed8" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="368" cy="0" r="14" fill="#1d4ed8" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="460" cy="0" r="22" fill="#ffffff"/>
+    <path d="M278 -22 C 278 -70, 92 -70, 92 -18" fill="none" stroke="#bfdbfe" stroke-opacity="0.6" stroke-width="2" stroke-dasharray="6 6"/>
+  </g>
+</svg>
