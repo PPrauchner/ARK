@@ -130,9 +130,10 @@ O fluxo, os agentes, as regras e as decisões de arquitetura são meus.
 
 <h2 align="center">Contato</h2>
 
-<p align="center">O ARK segue em desenvolvimento. Se quiser conversar sobre ele:</p>
+<p align="center">O ARK segue em desenvolvimento. Também ajudo equipes pequenas a montar esse fluxo nos repositórios delas. Se faz sentido para a sua, me chama no LinkedIn.</p>
 
 <p align="center">
   <a href="mailto:pietro.mprauchner@gmail.com"><img src="https://img.shields.io/badge/e--mail-pietro.mprauchner%40gmail.com-1d4ed8?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
   <a href="https://github.com/PPrauchner"><img src="https://img.shields.io/badge/github-PPrauchner-0b1f3f?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/pietroprauchner/"><img src="https://img.shields.io/badge/linkedin-pietroprauchner-2563eb?style=flat-square" alt="LinkedIn"></a>
 </p>

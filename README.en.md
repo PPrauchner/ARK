@@ -131,9 +131,10 @@ The workflow, agents, rules and architecture decisions are my own.
 
 <h2 align="center">Contact</h2>
 
-<p align="center">ARK is still in development. If you'd like to talk about it:</p>
+<p align="center">ARK is still in development. I also help small teams set up this workflow in their own repositories. If it makes sense for yours, reach out on LinkedIn.</p>
 
 <p align="center">
   <a href="mailto:pietro.mprauchner@gmail.com"><img src="https://img.shields.io/badge/e--mail-pietro.mprauchner%40gmail.com-1d4ed8?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"></a>
   <a href="https://github.com/PPrauchner"><img src="https://img.shields.io/badge/github-PPrauchner-0b1f3f?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/pietroprauchner/"><img src="https://img.shields.io/badge/linkedin-pietroprauchner-2563eb?style=flat-square" alt="LinkedIn"></a>
 </p>
