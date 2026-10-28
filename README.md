@@ -9,9 +9,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/feito_para-Claude_Code-0b1f3f?style=flat-square" alt="Feito para Claude Code">
-  <img src="https://img.shields.io/badge/versão-9-1d4ed8?style=flat-square" alt="Versão 9">
+  <img src="https://img.shields.io/badge/versão-10-1d4ed8?style=flat-square" alt="Versão 10">
   <img src="https://img.shields.io/badge/commits-200%2B-2563eb?style=flat-square" alt="Mais de 200 commits">
-  <img src="https://img.shields.io/badge/ADRs-7-3b82f6?style=flat-square" alt="7 ADRs">
+  <img src="https://img.shields.io/badge/ADRs-8-3b82f6?style=flat-square" alt="8 ADRs">
   <img src="https://img.shields.io/badge/linguagens-11-60a5fa?style=flat-square" alt="Convenções para 11 linguagens">
 </p>
 
@@ -78,6 +78,14 @@ não mergeia no tronco. Essa decisão continua sendo de uma pessoa.
 
 </div>
 
+<div align="justify">
+
+Quando a revisão pede ajustes num PR que eu mesmo estou acompanhando, o `/fix-pr`
+corrige só o que ela apontou, na branch do PR, e espera eu confirmar antes de
+subir as mudanças.
+
+</div>
+
 <h2 align="center">Decisões de design</h2>
 
 <div align="justify">
@@ -105,6 +113,14 @@ o porquê de cada escolha.
 
 </div>
 
+<div align="justify">
+
+Nada do texto do ARK vai para o git dos projetos que usam o kit. A configuração
+que ele cria em cada repositório fica só na máquina, então um repo público ou de
+equipe não leva o kit junto no histórico.
+
+</div>
+
 <h2 align="center">Onde já foi usado</h2>
 
 <div align="justify">
@@ -112,7 +128,7 @@ o porquê de cada escolha.
 Uma versão inicial do ARK organizou o trabalho da equipe de seis pessoas do
 [SAGA](https://github.com/PPrauchner/SAGA-Sistema-de-Acompanhamento-e-Gestao-Academica),
 um sistema de gestão para programas de pós-graduação. Desde então ele chegou à
-versão 9.
+versão 10.
 
 </div>
 

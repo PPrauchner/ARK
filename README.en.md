@@ -9,9 +9,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/built_for-Claude_Code-0b1f3f?style=flat-square" alt="Built for Claude Code">
-  <img src="https://img.shields.io/badge/version-9-1d4ed8?style=flat-square" alt="Version 9">
+  <img src="https://img.shields.io/badge/version-10-1d4ed8?style=flat-square" alt="Version 10">
   <img src="https://img.shields.io/badge/commits-200%2B-2563eb?style=flat-square" alt="Over 200 commits">
-  <img src="https://img.shields.io/badge/ADRs-7-3b82f6?style=flat-square" alt="7 ADRs">
+  <img src="https://img.shields.io/badge/ADRs-8-3b82f6?style=flat-square" alt="8 ADRs">
   <img src="https://img.shields.io/badge/languages-11-60a5fa?style=flat-square" alt="Conventions for 11 languages">
 </p>
 
@@ -79,6 +79,14 @@ a person's.
 
 </div>
 
+<div align="justify">
+
+When review asks for changes on a PR I'm following myself, `/fix-pr` fixes only
+what it pointed out, on the PR's branch, and waits for my confirmation before
+pushing.
+
+</div>
+
 <h2 align="center">Design decisions</h2>
 
 <div align="justify">
@@ -107,13 +115,21 @@ reason behind each choice lives.
 
 </div>
 
+<div align="justify">
+
+None of ARK's text goes into the git history of the projects that use it. The
+setup it creates in each repository stays on the local machine, so a public or
+team repo doesn't carry the kit along in its history.
+
+</div>
+
 <h2 align="center">Where it's been used</h2>
 
 <div align="justify">
 
 An early version of ARK organized the work of the six-person team behind
 [SAGA](https://github.com/PPrauchner/SAGA-Sistema-de-Acompanhamento-e-Gestao-Academica),
-a management system for graduate programs. It has since reached version 9.
+a management system for graduate programs. It has since reached version 10.
 
 </div>
 
