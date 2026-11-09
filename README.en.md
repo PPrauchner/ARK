@@ -10,8 +10,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/built_for-Claude_Code-0b1f3f?style=flat-square" alt="Built for Claude Code">
   <img src="https://img.shields.io/badge/version-10-1d4ed8?style=flat-square" alt="Version 10">
-  <img src="https://img.shields.io/badge/commits-200%2B-2563eb?style=flat-square" alt="Over 200 commits">
-  <img src="https://img.shields.io/badge/ADRs-8-3b82f6?style=flat-square" alt="8 ADRs">
+  <img src="https://img.shields.io/badge/commits-350%2B-2563eb?style=flat-square" alt="Over 350 commits">
+  <img src="https://img.shields.io/badge/ADRs-11-3b82f6?style=flat-square" alt="11 ADRs">
   <img src="https://img.shields.io/badge/languages-11-60a5fa?style=flat-square" alt="Conventions for 11 languages">
 </p>
 
@@ -81,6 +81,15 @@ a person's.
 
 <div align="justify">
 
+`/afk-queue` is the middle ground: it takes a batch of issues and implements them
+all on a single branch, which becomes one PR for me to review. When the issues don't
+depend on each other, several run at once, each in its own copy of the repository,
+and only the ones that finished cleanly make it into the branch.
+
+</div>
+
+<div align="justify">
+
 When review asks for changes on a PR I'm following myself, `/fix-pr` fixes only
 what it pointed out, on the PR's branch, and waits for my confirmation before
 pushing.
@@ -123,13 +132,25 @@ team repo doesn't carry the kit along in its history.
 
 </div>
 
+<div align="justify">
+
+On a public repository anyone can comment on an issue, and an agent with terminal
+access shouldn't take orders from a stranger. So the agent only reads comments from
+people with write access to the repository; the rest are dropped before they reach
+it. The reviewers don't even get a terminal: they receive the diff and the PR as
+files and only read.
+
+</div>
+
 <h2 align="center">Where it's been used</h2>
 
 <div align="justify">
 
 An early version of ARK organized the work of the six-person team behind
 [SAGA](https://github.com/PPrauchner/SAGA-Sistema-de-Acompanhamento-e-Gestao-Academica),
-a management system for graduate programs. It has since reached version 10.
+a management system for graduate programs. It has since reached version 10
+and now runs across my repositories, from college assignments to a production
+system for a nonprofit.
 
 </div>
 

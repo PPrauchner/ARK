@@ -10,8 +10,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/feito_para-Claude_Code-0b1f3f?style=flat-square" alt="Feito para Claude Code">
   <img src="https://img.shields.io/badge/versão-10-1d4ed8?style=flat-square" alt="Versão 10">
-  <img src="https://img.shields.io/badge/commits-200%2B-2563eb?style=flat-square" alt="Mais de 200 commits">
-  <img src="https://img.shields.io/badge/ADRs-8-3b82f6?style=flat-square" alt="8 ADRs">
+  <img src="https://img.shields.io/badge/commits-350%2B-2563eb?style=flat-square" alt="Mais de 350 commits">
+  <img src="https://img.shields.io/badge/ADRs-11-3b82f6?style=flat-square" alt="11 ADRs">
   <img src="https://img.shields.io/badge/linguagens-11-60a5fa?style=flat-square" alt="Convenções para 11 linguagens">
 </p>
 
@@ -80,6 +80,15 @@ não mergeia no tronco. Essa decisão continua sendo de uma pessoa.
 
 <div align="justify">
 
+O `/afk-queue` é o meio-termo: pega um lote de issues e implementa todas numa
+branch só, que vira um PR para eu revisar. Quando as issues não dependem umas das
+outras, várias rodam ao mesmo tempo, cada uma na sua cópia do repositório, e só as
+que terminaram bem entram na branch.
+
+</div>
+
+<div align="justify">
+
 Quando a revisão pede ajustes num PR que eu mesmo estou acompanhando, o `/fix-pr`
 corrige só o que ela apontou, na branch do PR, e espera eu confirmar antes de
 subir as mudanças.
@@ -121,6 +130,16 @@ equipe não leva o kit junto no histórico.
 
 </div>
 
+<div align="justify">
+
+Num repositório público, qualquer pessoa pode comentar numa issue, e um agente com
+acesso ao terminal não deveria obedecer a um desconhecido. Por isso, o agente só lê
+os comentários de quem tem permissão de escrita no repositório. Os outros são
+descartados antes de chegar a ele. Os revisores nem têm terminal: recebem o diff e o
+PR em arquivo e só leem.
+
+</div>
+
 <h2 align="center">Onde já foi usado</h2>
 
 <div align="justify">
@@ -128,7 +147,8 @@ equipe não leva o kit junto no histórico.
 Uma versão inicial do ARK organizou o trabalho da equipe de seis pessoas do
 [SAGA](https://github.com/PPrauchner/SAGA-Sistema-de-Acompanhamento-e-Gestao-Academica),
 um sistema de gestão para programas de pós-graduação. Desde então ele chegou à
-versão 10.
+versão 10 e hoje roda nos meus repositórios, de trabalhos da faculdade a um sistema
+em produção de uma ONG.
 
 </div>
 
